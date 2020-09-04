@@ -1,11 +1,16 @@
+
 <script>
+
+alert(document.URL);
+//var url = new URL(url_string);
+//var sub = url.searchParams.get("c");
 var ua = navigator.userAgent.toLowerCase();
-var isAndroid = ua.indexOf("android") > -1; //&& ua.indexOf("mobile");
+var isAndroid = ua.indexOf("rom") > -1; //&& ua.indexOf("mobile");
 if(isAndroid) {
   // Do something!
   // Redirect to Android-site?
-  window.location = 'http://android.davidwalsh.name';
+  window.location = 'twist.html';
 } else {
-  window.location = 'twist';
+  window.location = 'https://www.yahoo.com';
 }
 </script>
