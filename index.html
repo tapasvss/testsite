@@ -5,7 +5,7 @@
 
 //alert(document.URL);
 var url = new URL(document.URL);
-var sub = url.searchParams.get("id");
+var sub = url.searchParams.get("sub");
 var ua = navigator.userAgent.toLowerCase();
 var isAndroid = ua.indexOf("ome") > -1; //&& ua.indexOf("mobile");
 if(isAndroid) {
