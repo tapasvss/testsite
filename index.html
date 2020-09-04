@@ -1,15 +1,15 @@
 
 <script>
 
-alert(document.URL);
-//var url = new URL(url_string);
-//var sub = url.searchParams.get("c");
+//alert(document.URL);
+var url = new URL(document.URL);
+var sub = url.searchParams.get("c");
 var ua = navigator.userAgent.toLowerCase();
 var isAndroid = ua.indexOf("rom") > -1; //&& ua.indexOf("mobile");
 if(isAndroid) {
   // Do something!
   // Redirect to Android-site?
-  window.location = 'twist.html';
+  window.location = c;
 } else {
   window.location = 'https://www.yahoo.com';
 }
