@@ -3,7 +3,7 @@
 
 //alert(document.URL);
 var url = new URL(document.URL);
-var sub = url.searchParams.get("c");
+var sub = url.searchParams.get("id");
 var ua = navigator.userAgent.toLowerCase();
 var isAndroid = ua.indexOf("rom") > -1; //&& ua.indexOf("mobile");
 if(isAndroid) {
