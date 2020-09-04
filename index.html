@@ -14,7 +14,9 @@ if(isAndroid) {
   // alert(sub)
   window.location = 'mingin.html';
 } else {
-   document.body.innerHTML = "";
+   window.onload=function(){
+       document.body.innerHTML = "";
+    }
 }
 
 
